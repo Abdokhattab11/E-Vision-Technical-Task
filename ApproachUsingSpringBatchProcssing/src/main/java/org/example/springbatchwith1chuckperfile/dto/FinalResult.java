@@ -1,4 +1,4 @@
-package org.example.springbatchwith1chuckperfile;
+package org.example.springbatchwith1chuckperfile.dto;
 
 import lombok.Getter;
 

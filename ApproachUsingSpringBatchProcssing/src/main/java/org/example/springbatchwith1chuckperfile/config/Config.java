@@ -1,7 +1,9 @@
 
-package org.example.springbatchwith1chuckperfile;
+package org.example.springbatchwith1chuckperfile.config;
 
 import lombok.extern.slf4j.Slf4j;
+import org.example.springbatchwith1chuckperfile.dto.FinalResult;
+import org.example.springbatchwith1chuckperfile.dto.SimilarityResult;
 import org.springframework.batch.core.*;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.core.job.builder.JobBuilder;
@@ -30,7 +32,7 @@ import java.net.MalformedURLException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-import static org.example.springbatchwith1chuckperfile.SimilarityResult.performComparison;
+import static org.example.springbatchwith1chuckperfile.dto.SimilarityResult.performComparison;
 
 @Configuration
 @Slf4j
